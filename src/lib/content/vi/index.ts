@@ -1,8 +1,8 @@
 const vi = {
   name: "Phùng Anh Tuấn",
-  role: "Frontend Developer | UI/UX Enthusiast",
+  role: ["Fullstack Developer", "Web Developer"],
   aboutTitle: "Giới thiệu",
-  aboutDesc: "Xin chào! Mình là Phùng Anh Tuấn, hiện đang học tập và phát triển kỹ năng lập trình. Mình yêu thích xây dựng giao diện đẹp, hiện đại và tối ưu trải nghiệm người dùng. Mình luôn sẵn sàng học hỏi công nghệ mới.",
+  aboutDesc: "Xin chào! Mình là Phùng Anh Tuấn, sinh viên trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM. Mình là lập trình viên full stack nhưng có thế mạnh về giao diện, yêu thích xây dựng UI hiện đại, tối ưu trải nghiệm người dùng. Mình luôn chủ động học hỏi công nghệ mới và phát triển kỹ năng toàn diện.",
   skillsTitle: "Kỹ năng",
   skills: ["React", "Next.js", "Tailwind CSS", "TypeScript", "UI/UX"],
   projectsTitle: "Dự án nổi bật",
@@ -24,7 +24,12 @@ const vi = {
     bio: "Still in the process of upgrading my skills, but there's no shortage of my ability to learn.",
     followers: 3,
     following: 3
-  }
+  },
+  menuAbout: "Giới thiệu",
+  menuSkills: "Kỹ năng",
+  menuProjects: "Dự án",
+  menuContact: "Liên hệ",
+  siteName: "Phùng Anh Tuấn Portfolio"
 };
 
 export default vi;

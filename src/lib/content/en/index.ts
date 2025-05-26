@@ -1,8 +1,8 @@
 const en = {
   name: "Phung Anh Tuan",
-  role: "Frontend Developer | UI/UX Enthusiast",
+  role: ["Fullstack Developer", "Web Developer"],
   aboutTitle: "About Me",
-  aboutDesc: "Hello! I'm Phung Anh Tuan, currently learning and developing programming skills. I love building beautiful, modern UIs and optimizing user experience. Always eager to learn new technologies.",
+  aboutDesc: "Hi! I'm Phung Anh Tuan, a student at University of Science, VNU-HCM. I'm a full stack developer with a strong focus on frontend. I love building modern UIs and optimizing user experience. I'm always eager to learn new technologies and improve my skills in both frontend and backend.",
   skillsTitle: "Skills",
   skills: ["React", "Next.js", "Tailwind CSS", "TypeScript", "UI/UX"],
   projectsTitle: "Featured Projects",
@@ -24,7 +24,12 @@ const en = {
     bio: "Still in the process of upgrading my skills, but there's no shortage of my ability to learn.",
     followers: 3,
     following: 3
-  }
+  },
+  menuAbout: "About",
+  menuSkills: "Skills",
+  menuProjects: "Projects",
+  menuContact: "Contact",
+  siteName: "Phung Anh Tuan Portfolio"
 };
 
 export default en;
